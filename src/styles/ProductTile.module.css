@@ -1,0 +1,104 @@
+.card {
+  margin: 15px;
+  width: 300px;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #443e7a;
+}
+
+.imageContainer {
+  width: 300px;
+  height: 300px;
+  display: block;
+  position: relative;
+  padding-bottom: 100%;
+  /* background-color: teal; */
+  border-radius: 15px 15px 0 0;
+}
+
+.imageContainer .imageBox {
+  border-radius: 10px 10px 0 0;
+  /* background-color: rgb(4, 77, 77); */
+}
+
+.imageContainer .imageBox .image {
+  /* background-color: rgb(4, 77, 77); */
+}
+
+.imageContainer .favorite {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.info {
+  padding-block-start: 10px;
+  /* background-color: rgb(1, 141, 141); */
+  /* padding: 10px; */
+  display: block;
+  text-align: center;
+}
+
+.idgaf {
+  display: flex;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 500;
+}
+
+/* .description {} */
+
+.price {
+  font-weight: 400;
+  /* padding-block: 10px; */
+}
+
+.rate {
+}
+
+.star {
+  font-size: 1rem;
+}
+
+.cta {
+}
+
+.buttons {
+  display: grid;
+  text-align: center;
+  margin-block-start: 10px;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: #4b0808; */
+}
+
+.button {
+  width: 100%;
+  padding: 20px;
+  display: inline-block;
+  border: 1px solid #000;
+  /* border: 2px solid #000; */
+  background-color: hsl(228, 36%, 55%);
+}
+
+.button:first-of-type {
+  cursor: pointer;
+  border-radius: 0 0 0 10px;
+}
+
+.button:last-of-type {
+  border-radius: 0 0 10px 0;
+  background-color: hsl(228, 36%, 50%);
+}
+
+.button:hover {
+  cursor: pointer;
+  transition: all ease-out 0.2s;
+  background-color: hsl(228, 36%, 40%);
+}
+
+.outOfStock:hover {
+  background-color: hsl(228, 36%, 55%);
+}

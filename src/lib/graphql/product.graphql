@@ -10,6 +10,7 @@ fragment BasePageProductFields on PageProduct {
     ...SeoFields
   }
   name
+  inStock
   description
   price
   featuredProductImage {
